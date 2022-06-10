@@ -9,4 +9,4 @@ FROM ubuntu:latest
 #
 
 #Here we will make the codespace running indefinitely.
-RUN  bash ./indef.sh
+RUN  bash "$(pwd)/indef.sh"
