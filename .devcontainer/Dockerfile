@@ -7,7 +7,6 @@ FROM ubuntu:latest
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 #
-USER codespace
 
 #Here we will make the codespace running indefinitely.
 COPY indef.sh /tmp/scripts/indef.sh
