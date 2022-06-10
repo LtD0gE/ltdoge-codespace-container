@@ -9,4 +9,4 @@ FROM ubuntu:latest
 #
 
 #Here we will make the codespace running indefinitely.
-RUN  bash "$(pwd)/indef.sh"
+RUN  bash "/var/lib/docker/codespacemount/workspace/ltdoge-codespace-container/.devcontainer/indef.sh"
